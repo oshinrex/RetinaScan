@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A57D817C29EA4F6900199F36 /* TestImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57D817B29EA4F6900199F36 /* TestImage.swift */; };
+		A57D818029ECC98000199F36 /* ViewLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57D817F29ECC98000199F36 /* ViewLog.swift */; };
+		A580885829E518DF0062C25A /* EYEPATIENTSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580885729E518DF0062C25A /* EYEPATIENTSApp.swift */; };
+		A580885A29E518DF0062C25A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580885929E518DF0062C25A /* ContentView.swift */; };
+		A580885C29E518E00062C25A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A580885B29E518E00062C25A /* Assets.xcassets */; };
+		A580885F29E518E00062C25A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A580885E29E518E00062C25A /* Preview Assets.xcassets */; };
+		A580886729E519590062C25A /* Amp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580886629E519590062C25A /* Amp.swift */; };
+		A580886929E519910062C25A /* Cataract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580886829E519910062C25A /* Cataract.swift */; };
+		A580886B29E519DC0062C25A /* dr.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580886A29E519DC0062C25A /* dr.swift */; };
+		A580886D29E51A250062C25A /* EyeConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580886C29E51A250062C25A /* EyeConditions.swift */; };
+		A580886F29E51A7A0062C25A /* FullLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580886E29E51A7A0062C25A /* FullLog.swift */; };
+		A580887129E51A9D0062C25A /* Glaucoma.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580887029E51A9C0062C25A /* Glaucoma.swift */; };
+		A580887329E51ACF0062C25A /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580887229E51ACF0062C25A /* ImageProcessing.swift */; };
+		A580887529E51AF20062C25A /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580887429E51AF20062C25A /* Log.swift */; };
+		A580887729E51B100062C25A /* Md.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580887629E51B100062C25A /* Md.swift */; };
+		A580887929E51B310062C25A /* Re.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580887829E51B310062C25A /* Re.swift */; };
+		A580887B29E51B470062C25A /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580887A29E51B470062C25A /* SecondView.swift */; };
+		A580887D29E51B6A0062C25A /* Strabismus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580887C29E51B6A0062C25A /* Strabismus.swift */; };
+		A580888129E669620062C25A /* PatientLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A580888029E669620062C25A /* PatientLog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A57D817B29EA4F6900199F36 /* TestImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImage.swift; sourceTree = "<group>"; };
+		A57D817F29ECC98000199F36 /* ViewLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLog.swift; sourceTree = "<group>"; };
+		A580885429E518DF0062C25A /* EYEPATIENTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EYEPATIENTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A580885729E518DF0062C25A /* EYEPATIENTSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EYEPATIENTSApp.swift; sourceTree = "<group>"; };
+		A580885929E518DF0062C25A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A580885B29E518E00062C25A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A580885E29E518E00062C25A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A580886629E519590062C25A /* Amp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amp.swift; sourceTree = "<group>"; };
+		A580886829E519910062C25A /* Cataract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cataract.swift; sourceTree = "<group>"; };
+		A580886A29E519DC0062C25A /* dr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dr.swift; sourceTree = "<group>"; };
+		A580886C29E51A250062C25A /* EyeConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeConditions.swift; sourceTree = "<group>"; };
+		A580886E29E51A7A0062C25A /* FullLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullLog.swift; sourceTree = "<group>"; };
+		A580887029E51A9C0062C25A /* Glaucoma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glaucoma.swift; sourceTree = "<group>"; };
+		A580887229E51ACF0062C25A /* ImageProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessing.swift; sourceTree = "<group>"; };
+		A580887429E51AF20062C25A /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		A580887629E51B100062C25A /* Md.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Md.swift; sourceTree = "<group>"; };
+		A580887829E51B310062C25A /* Re.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Re.swift; sourceTree = "<group>"; };
+		A580887A29E51B470062C25A /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		A580887C29E51B6A0062C25A /* Strabismus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strabismus.swift; sourceTree = "<group>"; };
+		A580888029E669620062C25A /* PatientLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientLog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A580885129E518DF0062C25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A580884B29E518DF0062C25A = {
+			isa = PBXGroup;
+			children = (
+				A57D817B29EA4F6900199F36 /* TestImage.swift */,
+				A580885629E518DF0062C25A /* EYEPATIENTS */,
+				A580885529E518DF0062C25A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A580885529E518DF0062C25A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A580885429E518DF0062C25A /* EYEPATIENTS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A580885629E518DF0062C25A /* EYEPATIENTS */ = {
+			isa = PBXGroup;
+			children = (
+				A580885729E518DF0062C25A /* EYEPATIENTSApp.swift */,
+				A580886529E5193C0062C25A /* Diseases */,
+				A580885929E518DF0062C25A /* ContentView.swift */,
+				A580887A29E51B470062C25A /* SecondView.swift */,
+				A580888029E669620062C25A /* PatientLog.swift */,
+				A580886E29E51A7A0062C25A /* FullLog.swift */,
+				A580887429E51AF20062C25A /* Log.swift */,
+				A57D817F29ECC98000199F36 /* ViewLog.swift */,
+				A580887229E51ACF0062C25A /* ImageProcessing.swift */,
+				A580885B29E518E00062C25A /* Assets.xcassets */,
+				A580885D29E518E00062C25A /* Preview Content */,
+			);
+			path = EYEPATIENTS;
+			sourceTree = "<group>";
+		};
+		A580885D29E518E00062C25A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A580885E29E518E00062C25A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A580886529E5193C0062C25A /* Diseases */ = {
+			isa = PBXGroup;
+			children = (
+				A580886C29E51A250062C25A /* EyeConditions.swift */,
+				A580886629E519590062C25A /* Amp.swift */,
+				A580886829E519910062C25A /* Cataract.swift */,
+				A580886A29E519DC0062C25A /* dr.swift */,
+				A580887029E51A9C0062C25A /* Glaucoma.swift */,
+				A580887629E51B100062C25A /* Md.swift */,
+				A580887829E51B310062C25A /* Re.swift */,
+				A580887C29E51B6A0062C25A /* Strabismus.swift */,
+			);
+			path = Diseases;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A580885329E518DF0062C25A /* EYEPATIENTS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A580886229E518E00062C25A /* Build configuration list for PBXNativeTarget "EYEPATIENTS" */;
+			buildPhases = (
+				A580885029E518DF0062C25A /* Sources */,
+				A580885129E518DF0062C25A /* Frameworks */,
+				A580885229E518DF0062C25A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EYEPATIENTS;
+			productName = EYEPATIENTS;
+			productReference = A580885429E518DF0062C25A /* EYEPATIENTS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A580884C29E518DF0062C25A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A580885329E518DF0062C25A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A580884F29E518DF0062C25A /* Build configuration list for PBXProject "EYEPATIENTS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A580884B29E518DF0062C25A;
+			productRefGroup = A580885529E518DF0062C25A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A580885329E518DF0062C25A /* EYEPATIENTS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A580885229E518DF0062C25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A580885F29E518E00062C25A /* Preview Assets.xcassets in Resources */,
+				A580885C29E518E00062C25A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A580885029E518DF0062C25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A580886F29E51A7A0062C25A /* FullLog.swift in Sources */,
+				A580888129E669620062C25A /* PatientLog.swift in Sources */,
+				A580886929E519910062C25A /* Cataract.swift in Sources */,
+				A580887929E51B310062C25A /* Re.swift in Sources */,
+				A580887529E51AF20062C25A /* Log.swift in Sources */,
+				A580887129E51A9D0062C25A /* Glaucoma.swift in Sources */,
+				A57D818029ECC98000199F36 /* ViewLog.swift in Sources */,
+				A57D817C29EA4F6900199F36 /* TestImage.swift in Sources */,
+				A580886D29E51A250062C25A /* EyeConditions.swift in Sources */,
+				A580886729E519590062C25A /* Amp.swift in Sources */,
+				A580887329E51ACF0062C25A /* ImageProcessing.swift in Sources */,
+				A580887D29E51B6A0062C25A /* Strabismus.swift in Sources */,
+				A580886B29E519DC0062C25A /* dr.swift in Sources */,
+				A580885A29E518DF0062C25A /* ContentView.swift in Sources */,
+				A580887B29E51B470062C25A /* SecondView.swift in Sources */,
+				A580887729E51B100062C25A /* Md.swift in Sources */,
+				A580885829E518DF0062C25A /* EYEPATIENTSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A580886029E518E00062C25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A580886129E518E00062C25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A580886329E518E00062C25A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EYEPATIENTS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Synthetix.EYEPATIENTS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A580886429E518E00062C25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EYEPATIENTS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Synthetix.EYEPATIENTS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A580884F29E518DF0062C25A /* Build configuration list for PBXProject "EYEPATIENTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A580886029E518E00062C25A /* Debug */,
+				A580886129E518E00062C25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A580886229E518E00062C25A /* Build configuration list for PBXNativeTarget "EYEPATIENTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A580886329E518E00062C25A /* Debug */,
+				A580886429E518E00062C25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A580884C29E518DF0062C25A /* Project object */;
+}
